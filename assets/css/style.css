@@ -1,0 +1,26 @@
+.pizzaSubMenu{
+    top: -400px;
+    left: -450px;
+    transition: all 0.3s linear;
+}
+.pizzaMenu:hover .pizzaSubMenu{
+    top: 60px !important;
+}
+.hNav{
+    background-image: url(../images/bg-img-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menuBg{
+    background-image: url(../images/bg-pizza.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reservationBg{
+    background-image: url(../images/res.bg.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
