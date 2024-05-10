@@ -17,10 +17,45 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .reservationBg{
     background-image: url(../images/res.bg.webp);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dishDsc{
+    top: 70%;
+}
+ .dishImg{
+    transition: all 0.3s linear;
+}
+.dishImg:hover{
+    transform: scale(1.1);
+}
+.dishSec{
+    opacity: 0.8;
+}
+
+/* counter */
+.count {
+    width: 60px;
+    height: 60px;
+    /* background: lightgray; */
+    /* border-radius: 50%; */
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: verdana;
+    float: left;
+    margin: 30px;
+    text-shadow: 1px 1px black;
+    /* -webkit-box-shadow: 0px 0px 72px -9px rgba(0, 0, 0, 0.75); */
+    /* -moz-box-shadow: 0px 0px 72px -9px rgba(0, 0, 0, 0.75); */
+    /* box-shadow: 0px 0px 72px -9px rgba(0, 0, 0, 0.75); */
 }
