@@ -1,0 +1,60 @@
+.abtH {
+  background-image: url(/pages/images/about.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pizzaSubMenu {
+  top: -400px;
+  left: -450px;
+  transition: all 0.3s linear;
+}
+
+.pizzaMenu:hover .pizzaSubMenu {
+  top: 60px !important;
+}
+.bannerImg{
+  position: relative;
+}
+.roundImg{
+  position: absolute;
+  top: 87%;
+  left: 45%;
+}
+/* .cardImg{
+  border-radius: 50%;
+  width: 50px;
+  padding: 40px;
+} */
+
+.dishBg{
+  background-image: url(../images/bg-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.dishDsc {
+  top: 70%;
+}
+
+.dishImg {
+  transition: all 0.3s linear;
+}
+
+.dishImg:hover {
+  transform: scale(1.1);
+}
+
+.dishSec {
+  opacity: 0.8;
+}
+
+
+/* menu */
+.menuH {
+  background-image: url(/pages/images/chef.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
