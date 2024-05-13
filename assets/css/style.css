@@ -1,3 +1,7 @@
+:root{
+    --font1:"Arapey";
+}
+
 .pizzaSubMenu{
     top: -400px;
     left: -450px;
@@ -5,6 +9,9 @@
 }
 .pizzaMenu:hover .pizzaSubMenu{
     top: 60px !important;
+}
+body{
+    font-family: var(--font1);
 }
 .hNav{
     background-image: url(../images/bg-img-3.jpg);
@@ -52,7 +59,7 @@
     font-weight: bold;
     font-size: 20px;
     font-family: verdana;
-    float: left;
+    /* float: left; */
     margin: 30px;
     text-shadow: 1px 1px black;
     /* -webkit-box-shadow: 0px 0px 72px -9px rgba(0, 0, 0, 0.75); */

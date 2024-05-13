@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <!-- fontAwesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <!-- css -->
   <link rel="stylesheet" href="../pages/css/style.css">
   <!-- bootstrap -->
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 </head>
-
 <body>
   <header class="position-sticky top-0 left-0 right-0 z-3">
     <nav class="navbar navbar-expand-lg z-3 position-relative bg-dark">
@@ -26,7 +24,7 @@
         </button>
         <div class="collapse navbar-collapse" id="click">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item dropdown me-4"><a href="" class="nav-link dropdown-toggle text-white"
+            <li class="nav-item dropdown me-4"><a href="../index.html" class="nav-link dropdown-toggle text-white"
                 data-bs-toggle="dropdown">HOME</a>
               <ul class="dropdown-menu">
                 <li><a href="" class="dropdown-item">HOME ONE</a></li>
@@ -49,8 +47,8 @@
                 <li><a href="" class="dropdown-item">Contact</a></li>
               </ul>
             </li>
-            <li class="nav-item me-4 position-relative pizzaMenu"><a href="javascript:void(0)"
-                class="nav-link text-white" data-bs-toggle="">MENUS</a>
+            <li class="nav-item me-4 position-relative pizzaMenu"><a href="javascript:void(0)" class="nav-link text-white"
+                data-bs-toggle="">MENUS</a>
               <ul class="d-flex position-absolute pizzaSubMenu z-1 list-unstyled">
                 <li>
                   <img src="../assets/images/menu-1.webp" width="250px">
@@ -96,9 +94,9 @@
       </div>
     </nav>
   </header>
-
-  <!-- main-banner -->
-  <section class="menuH h-100">
+  
+  <!-- main banner -->
+  <section class="resH h-100">
     <div class="container-fluid">
       <div class="container">
         <div class="py-5">
@@ -108,149 +106,83 @@
             <i class="fa-solid fa-diamond text-danger"></i>
           </div>
           <div class="text-center pb-5">
-            <h2 class="display-2 fw-semibold mb-4 text-white">Menu List</h2>
+            <h2 class="display-2 fw-semibold mb-4 text-white">Reservation</h2>
           </div>
-          <h1 class="display-1 fw-bold text-white text-center">Special Menus</h1>
+          <h1 class="display-1 fw-bold text-white text-center">Book Table</h1>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- dishes -->
-  <section class="pb-5">
+  <!-- form -->
+  <section>
     <div class="container-fluid">
-      <div class="container pt-5 pb-5">
-        <div class="text-center pt-5 mt-4">
-          <img src="../pages/images/title-shape.png" class="mb-4">
-          <h2 class="fw-semibold display-5">Starters & Main Dishes</h2>
-          <p class="text-secondary fs-5">It’s the story of an everlasting love affair, Dieter Delicioz and
-            the <br> Atlantic Ocean in the big air.</p>
-        </div>
-        <div class="row">
-          <div class="col-12 col-lg-6">
-            <div class="d-flex mt-5 pt-3">
-              <div class="">
-                <div class="rounded-circle overflow-hidden">
-                  <img src="../pages/images/menu1.jpg" width="100px">
-                </div>
-              </div>
-              <div class="ms-4 mt-3">
-                <span class="fs-4">Chicha Morada</span>
-                <p class="text-secondary mt-2">Beetroot And Datterini, Goat Cheese, Ricotta</p>
-              </div>
-              <div class="mt-4 ms-3 fs-5">
-                <a href=""
-                  class="fs-6 float-end text-white text-decoration-none bg-black rounded-pill py-1 px-3">$33.00</a>
+      <div class="container my-5 py-5">
+        <form action="">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="mt-md-5 mb-5">
+              <label for="" class="form-label fw-semibold mb-3">NUMBER OF GUEST <span class="text-danger">*</span></label>
+              <input type="text" class="form-control p-3" placeholder="Person">
               </div>
             </div>
-            <div class="d-flex mt-3 pt-3">
-              <div class="">
-                <div class="rounded-circle overflow-hidden">
-                  <img src="../pages/images/menu2.jpg" width="100px">
-                </div>
-              </div>
-              <div class="ms-4 mt-3">
-                <span class="fs-4">Prickly Pear Tonic</span>
-                <p class="text-secondary mt-2">Beetroot And Datterini, Goat Cheese, Ricotta</p>
-              </div>
-              <div class="mt-4 ms-3 fs-5">
-                <a href=""
-                  class="fs-6 float-end text-white text-decoration-none bg-black rounded-pill py-1 px-3">$15.00</a>
+            <div class="col-12 col-lg-4">
+              <div class="mt-md-5">
+              <label for="" class="form-label fw-semibold mb-3">SELECT DATE <span class="text-danger">*</span></label>
+              <input type="text" class="form-control p-3" placeholder="Date">
               </div>
             </div>
-            <div class="d-flex mt-3 pt-3">
-              <div class="">
-                <div class="rounded-circle overflow-hidden">
-                  <img src="../pages/images/menu3.jpg" width="100px">
-                </div>
-              </div>
-              <div class="ms-4 mt-3">
-                <span class="fs-4">Wild Mushroom Arancini</span>
-                <p class="text-secondary mt-2">Beetroot And Datterini, Goat Cheese, Ricotta</p>
-              </div>
-              <div class="mt-4 ms-3 fs-5">
-                <a href=""
-                  class="fs-6 float-end text-white text-decoration-none bg-black rounded-pill py-1 px-3">$12.00</a>
+            <div class="col-12 col-lg-4">
+              <div class="mt-md-5">
+              <label for="" class="form-label fw-semibold mb-3">SELECT TIME<span class="text-danger">*</span></label>
+              <input type="text" class="form-control p-3" placeholder="Time">
               </div>
             </div>
-            <div class="d-flex mt-3 pt-3">
+            <div class="col-12 col-lg-4">
+              <div class="mb-5 mt-md-5">
+              <label for="" class="form-label fw-semibold mb-3">YOUR NAME <span class="text-danger">*</span></label>
+              <input type="text" class="form-control p-3" placeholder="Your Name">
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="mt-md-5">
+              <label for="" class="form-label fw-semibold mb-3">EMAIL ADDRESS <span class="text-danger">*</span></label>
+              <input type="text" class="form-control p-3" placeholder="Your Email">
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="mt-md-5">
+              <label for="" class="form-label fw-semibold mb-3">PHONE NUMBER <span class="text-danger">*</span></label>
+              <input type="text" class="form-control p-3" placeholder="Phone Number">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mt-md-5">
+              <label for="" class="form-label fw-semibold mb-3">SPECIAL QUEST <span class="text-danger">*</span></label>
+              </div>
+            </div>
+            <div class="col-12">
               <div class="">
-                <div class="rounded-circle overflow-hidden">
-                  <img src="../pages/images/menu4.jpg" width="100px">
-                </div>
+              <textarea placeholder="Message" id="" rows=5" cols="120"></textarea>
               </div>
-              <div class="ms-4 mt-3">
-                <span class="fs-4">Bruno’s Scribble</span>
-                <p class="text-secondary mt-2">Beetroot And Datterini, Goat Cheese, Ricotta</p>
-              </div>
-              <div class="mt-4 ms-3 fs-5">
-                <a href=""
-                  class="fs-6 float-end text-white text-decoration-none bg-black rounded-pill py-1 px-3">$33.00</a>
+            </div>
+            <div class="col-12">
+              <div class="text-center mt-4 mt-md-5">
+              <button class="btn btn-danger rounded-0 px-5 py-3 fw-semibold">BOOK RESERVATION</button>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-6">
-            <div class="d-flex mt-5 pt-3">
-              <div class="">
-                <div class="rounded-circle overflow-hidden">
-                  <img src="../pages/images/menu5.jpg" width="100px">
-                </div>
-              </div>
-              <div class="ms-4 mt-3">
-                <span class="fs-4">Tommy’s Margarita</span>
-                <p class="text-secondary mt-2">Beetroot And Datterini, Goat Cheese, Ricotta</p>
-              </div>
-              <div class="mt-4 ms-3 fs-5">
-                <a href="" class="fs-6 float-end text-white text-decoration-none bg-black rounded-pill py-1 px-3">$30.00</a>
-              </div>
-            </div>
-            <div class="d-flex mt-3 pt-3">
-              <div class="">
-                <div class="rounded-circle overflow-hidden">
-                  <img src="../pages/images/menu6.jpg" width="100px">
-                </div>
-              </div>
-              <div class="ms-4 mt-3">
-                <span class="fs-4">Crispy Skin Chicken</span>
-                <p class="text-secondary mt-2">Beetroot And Datterini, Goat Cheese, Ricotta</p>
-              </div>
-              <div class="mt-4 ms-3 fs-5">
-                <a href="" class="fs-6 float-end text-white text-decoration-none bg-black rounded-pill py-1 px-3">$16.00</a>
-              </div>
-            </div>
-            <div class="d-flex mt-3 pt-3">
-              <div class="">
-                <div class="rounded-circle overflow-hidden">
-                  <img src="../pages/images/menu7.jpg" width="100px">
-                </div>
-              </div>
-              <div class="ms-4 mt-3">
-                <span class="fs-4">Fresh Oysters Dozen</span>
-                <p class="text-secondary mt-2">Beetroot And Datterini, Goat Cheese, Ricotta</p>
-              </div>
-              <div class="mt-4 ms-3 fs-5">
-                <a href="" class="fs-6 float-end text-white text-decoration-none bg-black rounded-pill py-1 px-3">$10.00</a>
-              </div>
-            </div>
-            <div class="d-flex mt-3 pt-3">
-              <div class="">
-                <div class="rounded-circle overflow-hidden">
-                  <img src="../pages/images/menu8.jpg" width="100px">
-                </div>
-              </div>
-              <div class="ms-4 mt-3">
-                <span class="fs-4">Purple Corn Tostada</span>
-                <p class="text-secondary mt-2">Beetroot And Datterini, Goat Cheese, Ricotta</p>
-              </div>
-              <div class="mt-4 ms-3 fs-5">
-                <a href="" class="fs-6 float-end text-white text-decoration-none bg-black rounded-pill py-1 px-3">$20.00</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="text-center my-5 pt-4">
-        <button class="btn btn-danger mt-4 py-3 px-5 text-white rounded-0 me-5">VIEW MORE</button>
-        <button class="btn border-dark mt-4 py-3 px-5 rounded-0">FOOD MENU</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- carousel -->
+  <section>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="">
+          <img src="../pages/images/video-bg.webp" class="w-100">
         </div>
       </div>
     </div>
@@ -330,7 +262,6 @@
 
   <!-- bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script> -->
 </body>
-
 </html>

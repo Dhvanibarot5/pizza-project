@@ -7,17 +7,19 @@
     <title>Document</title>
     <!-- fontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="assets/font/stylesheet.css">
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-</head>
+</head> 
 
 <body data-bs-theme="light">
-    <header>
-        <nav class="navbar navbar-expand-lg z-3 position-relative bg-dark">
-            <div class="container">
-                <a href="" class="navbar-brand">
+     <header class="position-sticky top-0 left-0 right-0 z-3 bg-dark">
+        <nav class="navbar navbar-expand-lg z-3 position-relative py-0">
+            <div class="container bg-dark">
+                <a href="./index.html" class="navbar-brand">
                     <img src="assets/images/logoM.svg" width="150px">
                 </a>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#click">
@@ -25,7 +27,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="click">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item dropdown me-4"><a href="" class="nav-link dropdown-toggle text-white"
+                        <li class="nav-item dropdown me-4"><a href="./index.html" class="nav-link dropdown-toggle text-white"
                                 data-bs-toggle="dropdown">HOME</a>
                             <ul class="dropdown-menu">
                                 <li><a href="" class="dropdown-item">HOME ONE</a></li>
@@ -49,8 +51,8 @@
                             </ul>
                         </li>
                         <li class="nav-item me-4 position-relative pizzaMenu"><a href="javascript:void(0)"
-                                class="nav-link text-white" data-bs-toggle="">MENUS</a>
-                            <ul class="d-flex position-absolute pizzaSubMenu z-1 list-unstyled">
+                                class="nav-link text-white pizzaMenu1" data-bs-toggle="">MENUS</a>
+                            <ul class="d-flex position-absolute pizzaSubMenu z-n1 list-unstyled">
                                 <li>
                                     <img src="assets/images/menu-1.webp" width="250px">
                                     <a href="" class="text-decoration-none text-white bg-dark">MenuTab</a>
@@ -87,12 +89,12 @@
                             </ul>
                         </li>
                     </ul>
-                    <button class="btn btn-danger px-4 py-3 me-3 rounded-0">FIND A TABLE</button>
+                    <a class="btn btn-danger px-4 py-3 me-3 rounded-0" href="./pages/booking.html">FIND A TABLE</a>
                     <i class="fa-solid fa-dice-four fs-3 text-white"></i>
                 </div>
             </div>
         </nav>
-    </header>
+    </header> 
 
     <!-- main banner -->
     <main>
@@ -107,10 +109,10 @@
                             <i class="fa-solid fa-diamond text-danger"></i>
                         </div>
                         <div class="text-center pb-5">
-                            <h1 class="display-1 fw-medium fst-italic mb-4 text-white">Delicious Foods With <br>
+                            <h1 class="display-1 mb-4 text-white">Delicious Foods With <br>
                                 Wonderful Eating</h1>
-                            <button class="btn btn-danger mt-4 py-3 px-5 text-white rounded-0 me-5">VIEW MORE</button>
-                            <button class="btn border-white mt-4 py-3 px-5 text-white rounded-0">FOOD MENU</button>
+                            <a class="btn btn-danger mt-4 py-3 px-5 text-white rounded-0 me-5" href="./pages/aboutUs.html">VIEW MORE</a>
+                            <a class="btn border-white mt-4 py-3 px-5 text-white rounded-0" href="./pages/menu.html">FOOD MENU</a>
                         </div>
                     </div>
                 </div>
@@ -119,7 +121,7 @@
                                                               
 
         <!-- Food Lounge -->
-         <section>
+          <section>
             <div class="container-fluid">
                 <div class="container mt-5">
                     <div class="py-5">
@@ -154,11 +156,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+         </section> 
 
 
         <!-- Menu -->
-         <section class="menuBg h-100">
+          <section class="menuBg h-100">
             <div class="container-fluid">
                 <div class="container py-5">
                     <div class="text-center pt-5 mt-4">
@@ -455,14 +457,14 @@
                     </div>
                 </div>
             </div>
-        </section>
+         </section>
 
 
         <!-- counter -->
-         <section>
+          <section>
             <div class="container-fluid">
                 <div class="container">
-                    <div class="py-5">
+                    <div class="py-4 d-flex justify-content-evenly align-items-center">
                     <div class="count">45</div>
                     <div class="count">100</div>
                     <div class="count">115</div>
@@ -471,11 +473,11 @@
                     </div>
                 </div>
             </div>
-        </section> 
+         </section> 
 
 
         <!-- reservation -->
-     <section class="reservationBg mt-5">
+         <section class="reservationBg mt-5">
             <div class="container-fluid">
                 <div class="container mt-4 pt-5">
                     <div class="row">
@@ -513,7 +515,7 @@
 
 
         <!-- dishes -->
-         <section>
+          <section>
             <div class="container-fluid">
                 <div class="container pt-5 pb-5">
                     <div class="text-center py-5 mt-4">
@@ -553,11 +555,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+         </section> 
     </main>
 
 
-     <footer>
+      <footer>
         <section class="bg-dark text-white">
             <div class="container-fluid">
                 <div class="container pt-5">
@@ -621,7 +623,7 @@
                 </div>
             </div>
         </section>
-    </footer> 
+    </footer>  
 
 
     <!-- bootstrap js -->

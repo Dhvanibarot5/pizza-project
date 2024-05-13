@@ -58,3 +58,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* reservation */
+.resH {
+  background-image: url(/pages/images/reservation.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
