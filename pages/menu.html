@@ -7,6 +7,8 @@
   <title>Document</title>
   <!-- fontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <!-- fonts -->
+  <link rel="stylesheet" href="./fonts/stylesheet.css">
   <!-- css -->
   <link rel="stylesheet" href="../pages/css/style.css">
   <!-- bootstrap -->
@@ -14,19 +16,19 @@
 </head>
 
 <body>
-  <header class="position-sticky top-0 left-0 right-0 z-3">
-    <nav class="navbar navbar-expand-lg z-3 position-relative bg-dark">
-      <div class="container-fluid">
+  <header class="position-sticky top-0 left-0 right-0 z-3 bg-dark">
+    <nav class="navbar navbar-expand-lg z-3 position-relative py-0">
+      <div class="container-fluid bg-dark">
         <a href="../index.html" class="navbar-brand">
           <img src="../pages/images/logoM.svg" width="150px">
         </a>
         <i class="fa-solid fa-dice-four fs-3 text-white"></i>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#click">
+        <button class="navbar-toggler bg-white" data-bs-toggle="collapse" data-bs-target="#click">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="click">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item dropdown me-4"><a href="" class="nav-link dropdown-toggle text-white"
+            <li class="nav-item dropdown me-4"><a href="./index.html" class="nav-link dropdown-toggle text-white bg-dark"
                 data-bs-toggle="dropdown">HOME</a>
               <ul class="dropdown-menu">
                 <li><a href="" class="dropdown-item">HOME ONE</a></li>
@@ -50,8 +52,8 @@
               </ul>
             </li>
             <li class="nav-item me-4 position-relative pizzaMenu"><a href="javascript:void(0)"
-                class="nav-link text-white" data-bs-toggle="">MENUS</a>
-              <ul class="d-flex position-absolute pizzaSubMenu z-1 list-unstyled">
+                class="nav-link text-white pizzaMenu1" data-bs-toggle="">MENUS</a>
+              <ul class="d-flex position-absolute pizzaSubMenu z-n1 list-unstyled">
                 <li>
                   <img src="../assets/images/menu-1.webp" width="250px">
                   <a href="" class="text-decoration-none text-white bg-dark">MenuTab</a>

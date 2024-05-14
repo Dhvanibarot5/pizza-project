@@ -35,14 +35,27 @@ body{
 .dishDsc{
     top: 70%;
 }
- .dishImg{
+ .dishSec{
     transition: all 0.3s linear;
 }
-.dishImg:hover{
+.dishSec:hover{
     transform: scale(1.1);
 }
 .dishSec{
-    opacity: 0.8;
+    opacity: 1;
+    position: relative;
+}
+.dishSec::after{
+    content: "";
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: linear-gradient(360deg, #0e0e0e -6%, rgba(17, 17, 17, 0) 125%);
+        opacity: 1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1
 }
 
 /* counter */
@@ -57,7 +70,7 @@ body{
     align-items: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 60px;
     font-family: verdana;
     /* float: left; */
     margin: 30px;

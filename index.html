@@ -13,22 +13,22 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-</head> 
+</head>
 
 <body data-bs-theme="light">
-     <header class="position-sticky top-0 left-0 right-0 z-3 bg-dark">
+    <header class="position-sticky top-0 left-0 right-0 z-3 bg-dark">
         <nav class="navbar navbar-expand-lg z-3 position-relative py-0">
             <div class="container bg-dark">
                 <a href="./index.html" class="navbar-brand">
                     <img src="assets/images/logoM.svg" width="150px">
                 </a>
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#click">
+                <button class="navbar-toggler bg-white" data-bs-toggle="collapse" data-bs-target="#click">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="click">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item dropdown me-4"><a href="./index.html" class="nav-link dropdown-toggle text-white"
-                                data-bs-toggle="dropdown">HOME</a>
+                        <li class="nav-item dropdown me-4"><a href="./index.html"
+                                class="nav-link dropdown-toggle text-white bg-dark" data-bs-toggle="dropdown">HOME</a>
                             <ul class="dropdown-menu">
                                 <li><a href="" class="dropdown-item">HOME ONE</a></li>
                                 <li><a href="" class="dropdown-item">HOME TWO</a></li>
@@ -94,7 +94,7 @@
                 </div>
             </div>
         </nav>
-    </header> 
+    </header>
 
     <!-- main banner -->
     <main>
@@ -111,17 +111,19 @@
                         <div class="text-center pb-5">
                             <h1 class="display-1 mb-4 text-white">Delicious Foods With <br>
                                 Wonderful Eating</h1>
-                            <a class="btn btn-danger mt-4 py-3 px-5 text-white rounded-0 me-5" href="./pages/aboutUs.html">VIEW MORE</a>
-                            <a class="btn border-white mt-4 py-3 px-5 text-white rounded-0" href="./pages/menu.html">FOOD MENU</a>
+                            <a class="btn btn-danger mt-4 py-3 px-5 text-white rounded-0 me-lg-5"
+                                href="./pages/aboutUs.html">VIEW MORE</a>
+                            <a class="btn border-white mt-4 py-3 px-5 text-white rounded-0"
+                                href="./pages/menu.html">FOOD MENU</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-                                                              
+
 
         <!-- Food Lounge -->
-          <section>
+        <section>
             <div class="container-fluid">
                 <div class="container mt-5">
                     <div class="py-5">
@@ -156,11 +158,11 @@
                     </div>
                 </div>
             </div>
-         </section> 
+        </section>
 
 
         <!-- Menu -->
-          <section class="menuBg h-100">
+        <section class="menuBg h-100">
             <div class="container-fluid">
                 <div class="container py-5">
                     <div class="text-center pt-5 mt-4">
@@ -171,13 +173,13 @@
                             Atlantic Ocean in the big air.</p>
                     </div>
                     <div class="row mt-5">
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-6 order-lg-0">
                             <div class="rounded-circle overflow-hidden">
                                 <img src="assets/images/pizza-01.jpg" class="w-100">
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="pt-5 ps-5 mt-5">
+                        <div class="col-12 col-lg-6 order-lg-1">
+                            <div class="pt-5 ps-lg-5 mt-5">
                                 <h2 class="text-white">Hawaiian Pizza</h2>
                                 <p class="text-secondary fs-6 pt-2">Tomato sauce, Burrata, Parmesan & mozzarella <br>
                                     cheese,<br>
@@ -198,7 +200,12 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-6 order-lg-3">
+                            <div class="rounded-circle overflow-hidden mb-md-5">
+                                <img src="assets/images/pizza-02.jpg" class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 order-lg-2">
                             <div class="pt-5 pe-5 mt-5 mb-md-5">
                                 <h2 class="text-white">Margherita Pizza</h2>
                                 <span class="text-secondary">Tomato sauce, Burrata, Parmesan & mozzarella <br>
@@ -220,18 +227,13 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="rounded-circle overflow-hidden mb-md-5">
-                                <img src="assets/images/pizza-02.jpg" class="w-100">
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-6 order-lg-4">
                             <div class="rounded-circle overflow-hidden">
                                 <img src="assets/images/pizza-03.jpg" class="w-100">
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="pt-5 ps-5 mt-5">
+                        <div class="col-12 col-lg-6 order-lg-5">
+                            <div class="pt-5 ps-lg-5 mt-5">
                                 <h2 class="text-white">Veggie Pizza</h2>
                                 <span class="text-secondary">Tomato sauce, Burrata, Parmesan & mozzarella <br>
                                     cheese,<br>
@@ -269,7 +271,8 @@
                                     </div>
                                     <div class="ms-4">
                                         <span class="text-white fs-4 fw-medium">Marinara</span>
-                                        <p class="text-secondary fs-5 mt-3">Marinara sauce, Garlic, Olive <br> oil, Basil, Oregano
+                                        <p class="text-secondary fs-5 mt-3">Marinara sauce, Garlic, Olive <br> oil,
+                                            Basil, Oregano
                                         </p>
                                     </div>
                                     <div class="mt-4 ms-3 fs-5">
@@ -280,12 +283,13 @@
                                 <div class="d-flex mt-5 pt-5">
                                     <div class="">
                                         <div class="rounded-circle overflow-hidden">
-                                        <img src="assets/images/p-2.jpg" width="100px">
+                                            <img src="assets/images/p-2.jpg" width="100px">
                                         </div>
                                     </div>
                                     <div class="ms-4">
                                         <span class="text-white fs-4 fw-medium">Margherita</span>
-                                        <p class="text-secondary fs-5 mt-3">San Marzano tomato sauce, <br> Mozzarella di bufala,
+                                        <p class="text-secondary fs-5 mt-3">San Marzano tomato sauce, <br> Mozzarella di
+                                            bufala,
                                             Olive <br> Oil</p>
                                     </div>
                                     <div class="mt-4 ms-3 fs-5">
@@ -299,12 +303,13 @@
                                 <div class="d-flex mt-4 pt-3">
                                     <div class="">
                                         <div class="rounded-circle overflow-hidden">
-                                        <img src="assets/images/p-3.webp" width="100px">
+                                            <img src="assets/images/p-3.webp" width="100px">
                                         </div>
                                     </div>
                                     <div class="ms-4">
                                         <span class="text-white fs-4 fw-medium">Ai Broccoli</span>
-                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozzarella,<br> Salmon, Garlic</p>
+                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozzarella,<br> Salmon, Garlic
+                                        </p>
                                     </div>
                                     <div class="mt-4 ms-4 fs-5">
                                         <span class="text-white">$12</span><br>
@@ -314,7 +319,7 @@
                                 <div class="d-flex mt-5 pt-5">
                                     <div class="">
                                         <div class="rounded-circle overflow-hidden">
-                                        <img src="assets/images/p-4.webp" width="100px">
+                                            <img src="assets/images/p-4.webp" width="100px">
                                         </div>
                                     </div>
                                     <div class="ms-4">
@@ -329,7 +334,7 @@
                                 <div class="d-flex mt-5 pt-5">
                                     <div class="">
                                         <div class="rounded-circle overflow-hidden">
-                                        <img src="assets/images/p-5.webp" width="100px">
+                                            <img src="assets/images/p-5.webp" width="100px">
                                         </div>
                                     </div>
                                     <div class="ms-4 me-5">
@@ -344,12 +349,13 @@
                                 <div class="d-flex mt-5 pt-5">
                                     <div class="">
                                         <div class="rounded-circle overflow-hidden">
-                                        <img src="assets/images/p-6.webp" width="100px">
+                                            <img src="assets/images/p-6.webp" width="100px">
                                         </div>
                                     </div>
                                     <div class="ms-4">
                                         <span class="text-white fs-4 fw-medium">Caprese</span>
-                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozarella,<br> Cherry tomatoes</p>
+                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozarella,<br> Cherry tomatoes
+                                        </p>
                                     </div>
                                     <div class="mt-4 ms-4 fs-5">
                                         <span class="text-white">$12</span><br>
@@ -365,12 +371,13 @@
                                 <div class="d-flex mt-5 pt-3">
                                     <div class="">
                                         <div class="rounded-circle overflow-hidden">
-                                        <img src="assets/images/p-7.webp" width="100px">
+                                            <img src="assets/images/p-7.webp" width="100px">
                                         </div>
                                     </div>
                                     <div class="ms-4">
                                         <span class="text-white fs-4 fw-medium">California Style</span>
-                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozzarella,<br> Salmon, Garlic</p>
+                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozzarella,<br> Salmon, Garlic
+                                        </p>
                                     </div>
                                     <div class="mt-4 ms-3 fs-5">
                                         <span class="text-white">$12</span><br>
@@ -380,12 +387,13 @@
                                 <div class="d-flex mt-5 pt-5">
                                     <div class="">
                                         <div class="rounded-circle overflow-hidden">
-                                        <img src="assets/images/p-8.webp" width="100px">
+                                            <img src="assets/images/p-8.webp" width="100px">
                                         </div>
                                     </div>
                                     <div class="ms-4">
                                         <span class="text-white fs-4 fw-medium">Detroit Style</span>
-                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozarella,<br> Cherry tomatoes</p>
+                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozarella,<br> Cherry tomatoes
+                                        </p>
                                     </div>
                                     <div class="mt-4 ms-4 fs-5">
                                         <span class="text-white">$12</span><br>
@@ -395,7 +403,7 @@
                                 <div class="d-flex mt-5 pt-5">
                                     <div class="">
                                         <div class="rounded-circle overflow-hidden">
-                                        <img src="assets/images/p-9.webp" width="100px">
+                                            <img src="assets/images/p-9.webp" width="100px">
                                         </div>
                                     </div>
                                     <div class="ms-4">
@@ -410,7 +418,7 @@
                                 <div class="d-flex mt-5 pt-5">
                                     <div class="">
                                         <div class="rounded-circle overflow-hidden">
-                                        <img src="assets/images/p-10.webp" width="100px">
+                                            <img src="assets/images/p-10.webp" width="100px">
                                         </div>
                                     </div>
                                     <div class="mx-4">
@@ -425,12 +433,13 @@
                                 <div class="d-flex mt-5 pt-5">
                                     <div class="">
                                         <div class="rounded-circle overflow-hidden">
-                                        <img src="assets/images/p-11.jpg" width="100px">
+                                            <img src="assets/images/p-11.jpg" width="100px">
                                         </div>
                                     </div>
                                     <div class="ms-4">
                                         <span class="text-white fs-4 fw-medium">Cheeseburger Style</span>
-                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozarella,<br> Cherry tomatoes</p>
+                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozarella,<br> Cherry tomatoes
+                                        </p>
                                     </div>
                                     <div class="mt-4 ms-4 fs-5">
                                         <span class="text-white">$12</span><br>
@@ -440,12 +449,13 @@
                                 <div class="d-flex my-5 py-5">
                                     <div class="">
                                         <div class="rounded-circle overflow-hidden">
-                                        <img src="assets/images/p-12.jpg" width="100px">
+                                            <img src="assets/images/p-12.jpg" width="100px">
                                         </div>
                                     </div>
                                     <div class="ms-4">
                                         <span class="text-white fs-4 fw-medium">Chicken Alfredo</span>
-                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozarella,<br> Cherry tomatoes</p>
+                                        <p class="text-secondary fs-5 mt-3">Tomato sauce, Mozarella,<br> Cherry tomatoes
+                                        </p>
                                     </div>
                                     <div class="mt-4 ms-4 fs-5">
                                         <span class="text-white">$12</span><br>
@@ -457,52 +467,77 @@
                     </div>
                 </div>
             </div>
-         </section>
+        </section>
 
 
         <!-- counter -->
-          <section>
+        <section>
             <div class="container-fluid">
-                <div class="container">
-                    <div class="py-4 d-flex justify-content-evenly align-items-center">
-                    <div class="count">45</div>
-                    <div class="count">100</div>
-                    <div class="count">115</div>
-                    <div class="count">50</div>
-                    <div class="count">125</div>
+                <div class="container mt-5">
+                    <div class="py-4 d-flex flex-wrap justify-content-evenly align-items-center">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-solid fa-diamond text-danger"></i>
+                            <div class="count">10</div>
+                            <p class="fs-5 text-secondary">Awards Won</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-solid fa-diamond text-danger"></i>
+                            <div class="count">210</div>
+                            <p class="fs-5 text-secondary">Daily Orders</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-solid fa-diamond text-danger"></i>
+                            <div class="count">99</div>
+                            <p class="fs-5 text-secondary">Members</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-solid fa-diamond text-danger"></i>
+                            <div class="count">100</div>
+                            <p class="fs-5 text-secondary">Menu & Dish</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-solid fa-diamond text-danger"></i>
+                            <div class="count">25</div>
+                            <p class="fs-5 text-secondary">Specialities</p>
+                        </div>
                     </div>
                 </div>
             </div>
-         </section> 
+        </section>
 
 
         <!-- reservation -->
-         <section class="reservationBg mt-5">
+        <section class="reservationBg mt-5">
             <div class="container-fluid">
                 <div class="container mt-4 pt-5">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <div class="d-flex align-items-center justify-content-center mt-5 pt-5">
-                                <i class="fa-solid fa-circle-play fs-1 bg-white p-4"></i>
+                            <div
+                                class="d-flex align-items-center justify-content-center justify-content-lg-start mt-5 pt-5 h-100">
+                                <i class="fa-solid fa-circle-play fs-1 bg-white p-4 rounded-circle"></i>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6">
                             <form>
                                 <div class="bg-dark p-5 mt-5 py-5">
                                     <div class="mb-3">
-                                        <label class="form-label text-white">NUMBER OF GUEST<span class="text-danger ms-1">*</span></label>
+                                        <label class="form-label text-white">NUMBER OF GUEST<span
+                                                class="text-danger ms-1">*</span></label>
                                         <input type="text" class="form-control py-3" placeholder="Person">
                                     </div>
                                     <div class="mb-3">
-                                        <label class="form-label text-white">SELECT DATE<span class="text-danger ms-1">*</span></label>
+                                        <label class="form-label text-white">SELECT DATE<span
+                                                class="text-danger ms-1">*</span></label>
                                         <input type="date" class="form-control py-3" placeholder="Date">
                                     </div>
                                     <div class="mb-3">
-                                        <label class="form-label text-white">SELECT TIME<span class="text-danger ms-1">*</span></label>
+                                        <label class="form-label text-white">SELECT TIME<span
+                                                class="text-danger ms-1">*</span></label>
                                         <input type="time" class="form-control py-3" placeholder="Time">
                                     </div>
                                     <div class="d-flex justify-content-center">
-                                        <button type="submit" class="btn btn-danger w-100 py-3 fw-semibold">BOOK RESERVATION</button>
+                                        <button type="submit" class="btn btn-danger w-100 py-3 fw-semibold">BOOK
+                                            RESERVATION</button>
                                     </div>
                                 </div>
                             </form>
@@ -511,11 +546,11 @@
                     <marquee behavior="" direction="left" class="display-1 fw-semibold text-white">BOOK TABLE</marquee>
                 </div>
             </div>
-        </section> 
+        </section>
 
 
         <!-- dishes -->
-          <section>
+        <section>
             <div class="container-fluid">
                 <div class="container pt-5 pb-5">
                     <div class="text-center py-5 mt-4">
@@ -526,40 +561,45 @@
                     </div>
                     <div class="row">
                         <div class="col-12 col-lg-4">
-                            <div class="dishSec position-relative overflow-hidden mb-sm-5">
-                                <img src="assets/images/blog-01.jpg" class="w-100 dishImg ">
-                                <div class="position-absolute start-50 translate-middle text-white dishDsc">
-                                <span>FAST FOOD</span>
-                                <p>Love and food: It is all about dinenos restaurant</p>
+                            <div class="overflow-hidden mb-sm-5">
+                                <div class="dishSec position-relative">
+                                    <img src="assets/images/blog-01.jpg" class="w-100 dishImg ">
+                                    <div class="position-absolute start-50 z-3 translate-middle text-white dishDsc">
+                                        <span class="text-warning fw-bold">FAST FOOD</span>
+                                        <p class="text-white">Love and food: It is all about dinenos restaurant</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-4">
-                            <div class="dishSec position-relative overflow-hidden mb-sm-5">
-                                <img src="assets/images/blog-02.jpg" class="w-100 dishImg">
-                                <div class="position-absolute start-50 translate-middle text-white dishDsc">
-                                <span>RICE CURRY</span>
-                                <p>Food is the foundation of true happiness</p>
+                            <div class="overflow-hidden mb-sm-5">
+                                <div class="dishSec position-relative">
+                                    <img src="assets/images/blog-02.jpg" class="w-100 dishImg">
+                                    <div class="position-absolute start-50 z-3 translate-middle text-white dishDsc">
+                                        <span class="text-warning fw-bold">RICE CURRY</span>
+                                        <p class="text-white">Food is the foundation of true happiness</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-4">
-                            <div class="dishSec position-relative overflow-hidden">
-                                <img src="assets/images/blog-03.jpg" class="w-100 dishImg">
-                                <div class="position-absolute start-50 translate-middle text-white dishDsc">
-                                <span>DINNER</span>
-                                <p>Enjoy an exceptional journey of taste of joy.</p>
+                            <div class="overflow-hidden mb-sm-5">
+                                <div class="dishSec position-relative">
+                                    <img src="assets/images/blog-03.jpg" class="w-100 dishImg">
+                                    <div class="position-absolute start-50 z-3 translate-middle text-white dishDsc">
+                                        <span class="text-warning fw-bold">DINNER</span>
+                                        <p class="text-white">Enjoy an exceptional journey of taste of joy.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-         </section> 
+        </section>
     </main>
 
 
-      <footer>
+    <footer>
         <section class="bg-dark text-white">
             <div class="container-fluid">
                 <div class="container pt-5">
@@ -568,19 +608,25 @@
                             <div class="col-12 col-lg-3">
                                 <div class="mt-5">
                                     <img src="assets/images/logoM.svg" width="150px" class="mb-4">
-                                    <p class="mb-4 text-secondary">Be the first to know about new <br> collections, special events, and what’s going
+                                    <p class="mb-4 text-secondary">Be the first to know about new <br> collections,
+                                        special events, and what’s going
                                         on at Our Place. We are creative</p>
                                     <span class="text-danger">BOOK A TABLE</span>
                                     <p class="fs-4">888 999 000 11</p>
                                 </div>
                             </div>
                             <div class="col-12 col-lg-3">
-                                <div class="mt-5 ms-2">
-                                    <h5 class="mb-5"><i class="fa-solid fa-diamond text-danger fs-6 me-3"></i>Get In Touch</h5>
+                                <div class="mt-5 ms-lg-2">
+                                    <h5 class="mb-5"><i class="fa-solid fa-diamond text-danger fs-6 me-3"></i>Get In
+                                        Touch</h5>
                                     <ul class="list-unstyled ms-4">
-                                        <li class="mb-4 text-secondary"><i class="fa-solid fa-location-dot me-3"></i><span>Silk St, Barbican,London E2Y</span></li>
-                                        <li class="mb-4 text-secondary"><i class="fa-solid fa-phone me-3"></i><span>+39-055-123456</span></li>
-                                        <li class="mb-4 text-secondary"><i class="fa-solid fa-envelope-open me-3"></i><span>booking@webexample.com</span>
+                                        <li class="mb-4 text-secondary"><i
+                                                class="fa-solid fa-location-dot me-3"></i><span>Silk St, Barbican,London
+                                                E2Y</span></li>
+                                        <li class="mb-4 text-secondary"><i
+                                                class="fa-solid fa-phone me-3"></i><span>+39-055-123456</span></li>
+                                        <li class="mb-4 text-secondary"><i
+                                                class="fa-solid fa-envelope-open me-3"></i><span>booking@webexample.com</span>
                                         </li>
                                     </ul>
                                     <div class="ms-4">
@@ -593,14 +639,19 @@
                                 </div>
                             </div>
                             <div class="col-12 col-lg-3">
-                                <div class="mt-5 ms-5">
+                                <div class="mt-5 ms-lg-5">
                                     <h5 class="mb-5"><i class="fa-solid fa-diamond text-danger fs-6 me-3"></i>Pages</h5>
                                     <ul class="list-unstyled">
-                                        <li class="ms-4 mb-3"><a class="text-decoration-none text-secondary"href="">About Us</a></li>
-                                        <li class="ms-4 mb-3"><a class="text-decoration-none text-secondary"href="">Our Menu</a></li>
-                                        <li class="ms-4 mb-3"><a class="text-decoration-none text-secondary"href="">Our Chef</a></li>
-                                        <li class="ms-4 mb-3"><a class="text-decoration-none text-secondary"href="">Reservation</a></li>
-                                        <li class="ms-4 mb-3"><a class="text-decoration-none text-secondary"href="">Contact Us</a></li>
+                                        <li class="ms-4 mb-3"><a class="text-decoration-none text-secondary"
+                                                href="">About Us</a></li>
+                                        <li class="ms-4 mb-3"><a class="text-decoration-none text-secondary" href="">Our
+                                                Menu</a></li>
+                                        <li class="ms-4 mb-3"><a class="text-decoration-none text-secondary" href="">Our
+                                                Chef</a></li>
+                                        <li class="ms-4 mb-3"><a class="text-decoration-none text-secondary"
+                                                href="">Reservation</a></li>
+                                        <li class="ms-4 mb-3"><a class="text-decoration-none text-secondary"
+                                                href="">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -617,18 +668,21 @@
                         </div>
                         <hr>
                         <div class="text-center pt-5">
-                        <p class="text-secondary">Copyright @2023 Dinenos by <span class="text-white">ReacThemes</span></p>
+                            <p class="text-secondary">Copyright @2023 Dinenos by <span
+                                    class="text-white">ReacThemes</span></p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    </footer>  
+    </footer>
 
 
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script> -->
+
+    <!-- js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
 
     <!-- counter js -->
     <script src="assets/js/counter.js"></script>
