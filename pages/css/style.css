@@ -22,16 +22,19 @@ body{
 .bannerImg{
   position: relative;
 }
-.roundImg{
+.roundImgOuter{
   position: absolute;
   top: 87%;
-  left: 45%;
+  left: 50%;
 }
-/* .cardImg{
-  border-radius: 50%;
-  width: 50px;
-  padding: 40px;
-} */
+.cardImg{
+  /* border-radius: 50%; */
+  width: 60px;
+  /* padding: 40px; */
+} 
+.card-top{
+  height: 150px;
+}
 
 .dishBg{
   background-image: url(../images/bg-01.jpg);
@@ -101,7 +104,7 @@ body{
 
 }
 .mainText{
-  top: 70%;
+  top: 68%;
 
 }
 
