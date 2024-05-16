@@ -5,7 +5,7 @@ body{
   font-family: var(--font1);
 }
 .abtH {
-  background-image: url(/pages/images/about.webp);
+  background-image: url(../images/about.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,7 +62,7 @@ body{
 
 /* menu */
 .menuH {
-  background-image: url(/pages/images/chef.jpg);
+  background-image: url(../images/chef.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,7 +70,7 @@ body{
 
 /* reservation */
 .resH {
-  background-image: url(/pages/images/reservation.webp);
+  background-image: url(../images/reservation.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,6 +114,6 @@ body{
     padding: 450px;
   }
     .bookTable {
-      font-size: 200px;
+      font-size: 180px;
     }
 }
